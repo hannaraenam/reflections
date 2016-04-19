@@ -6,3 +6,7 @@ Reflect: Staging Area
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -> helps you keep one commit per logical change. It allows you to have control over exactly what to commit. Staging area is an intermediary area where you keep files of one logical change and keeps it in the repository in a single commit.
 
+Reflect: Commit Size
+How can you use the staging area to make sure you have one commit per logical change?
+-> use staging area. Then, use “git diff” to compare working directory and staging area, and “git diff —-staged” to compare staging area and latest commit. “git reset —-hard” will reset the staging area and working directory to be the same as the latest commit (?) 
+

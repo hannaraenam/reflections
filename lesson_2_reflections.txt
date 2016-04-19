@@ -2,3 +2,7 @@ Reflect: Initializing a Repository
 What happens when you initialize a repository? Why do you need to do it?
 -> normal directories are not git repositories and do not track metadata. In order to convert it to a git repository, one must initialize it with "git init"
 
+Reflect: Staging Area
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+-> helps you keep one commit per logical change. It allows you to have control over exactly what to commit. Staging area is an intermediary area where you keep files of one logical change and keeps it in the repository in a single commit.
+

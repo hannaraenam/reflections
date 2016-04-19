@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red36\green36\blue36;\red38\green98\blue135;\red159\green160\blue28;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Lesson 1 reflections \
+3/17/2016
+\b0 \
+\
+diff -u allows one to compare two codes and identify typos. \
+commit - the act of \'93saving\'94. diff allow you to compare different commits. Its best to commit after one incremental change\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 \expnd0\expndtw0\kerning0
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does? \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 each increment is clearer. if autosaved, it might be saved in-between a commit or after too many commits. \
+\
+
+\b Reflect: Using Git to View History\
+4/18/2016\
+
+\b0 How can you use the commands git log and git diff to view the history of files?\
+1. git log shows all commits\
+2. git diff id1 id2 shows differences between the two ids. You can see exactly what lines have been added or deleted.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs44 \cf3 \expnd0\expndtw0\kerning0
+Reflect: Confidence from Version Control\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf2 How might using version control make you more confident to make changes that could break something?
+\b0 \
+I can use git checkout to locate approximately where the breakage happened, and use git diff to understand exactly what code broke it.\
+It allows for exploration without worrying about having to go back and fix a project.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs44 \cf3 Reflect: How Do You Want to Use Git?\
+\pard\pardeftab720\partightenfactor0
+
+\b\fs28 \cf2 Now that you have your workspace set up, what do you want to try using Git for?
+\b0 \
+machine learning!\
+\
+old: 
+\f1\fs20 \cf4 \cb0 \kerning1\expnd0\expndtw0 \CocoaLigature0 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+\f0\fs28 \cf2 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+new(and faulted): 
+\f1\fs20 \cf4 \cb0 \kerning1\expnd0\expndtw0 \CocoaLigature0 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+}
